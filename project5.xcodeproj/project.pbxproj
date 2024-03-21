@@ -13,6 +13,7 @@
 		E3CDF4D32B9F8956002A27B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CDF4D12B9F8956002A27B8 /* Main.storyboard */; };
 		E3CDF4D52B9F895B002A27B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3CDF4D42B9F895B002A27B8 /* Assets.xcassets */; };
 		E3CDF4D82B9F895B002A27B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CDF4D62B9F895B002A27B8 /* LaunchScreen.storyboard */; };
+		E3CDF4E02BA09095002A27B8 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = E3CDF4DF2BA09094002A27B8 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E3CDF4D42B9F895B002A27B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3CDF4D72B9F895B002A27B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3CDF4D92B9F895C002A27B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3CDF4DF2BA09094002A27B8 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E3CDF4D42B9F895B002A27B8 /* Assets.xcassets */,
 				E3CDF4D62B9F895B002A27B8 /* LaunchScreen.storyboard */,
 				E3CDF4D92B9F895C002A27B8 /* Info.plist */,
+				E3CDF4DF2BA09094002A27B8 /* start.txt */,
 			);
 			path = project5;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3CDF4D82B9F895B002A27B8 /* LaunchScreen.storyboard in Resources */,
+				E3CDF4E02BA09095002A27B8 /* start.txt in Resources */,
 				E3CDF4D52B9F895B002A27B8 /* Assets.xcassets in Resources */,
 				E3CDF4D32B9F8956002A27B8 /* Main.storyboard in Resources */,
 			);
@@ -290,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N7ZH4WT9KZ;
@@ -300,6 +305,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,6 +324,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N7ZH4WT9KZ;
@@ -328,6 +335,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
